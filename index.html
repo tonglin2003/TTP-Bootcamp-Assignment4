@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js" ></script>
+
+    <title>Assignment 4</title>
+</head>
+<body>
+    <div class="text-center my-5">
+        <section class="poster border rounded m-5 p-5">
+            <h2 id="poster-title" >Motivational Poster</h2>
+            <img 
+            id="poster-image" 
+            src="https://www.jiagew939.com/png/mid-week-motivation.png" 
+            alt="motivational image"
+            class="my-4 rounded w-50"
+            >
+            <h3 id="poster-quote">Stay motivated or try to live until Friday night and you will see something nice.</h3>
+        </section>
+
+        <div class="randomPoster mb-5">
+            <button id="randomize" class="btn btn-primary">Randomize Poster</button>
+        </div>
+
+
+        <div class="quoteGenerator w-50 m-auto">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="image url" id="poster-form-image">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Quote" id="poster-form-quote">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Title" id="poster-form-title">
+            </div>
+            <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>
